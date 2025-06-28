@@ -677,4 +677,4 @@ PRODUCT_COPY_FILES += \
     MobileFeliCaClient \
     MobileFeliCaMenuMainApp \
     MobileFeliCaSettingApp \
-    MobileFeliCaWebPluginBoot
+    MobileFeliCaWebPluginBoot    libQnnHtpStub \n

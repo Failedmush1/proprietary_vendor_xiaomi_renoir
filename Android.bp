@@ -51,4 +51,20 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+cc_prebuilt_library_shared {
+    name: "libQnnHtpStub",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libQnnHtpStub.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
 }
