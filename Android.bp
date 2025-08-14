@@ -71,7 +71,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libtinyalsa",
                 "libtinycompress",
-                "libaudioroute-v34",
+                "libaudioroute",
                 "libaudioutils",
                 "libexpat",
                 "libhidlbase",
