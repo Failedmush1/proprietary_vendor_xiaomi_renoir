@@ -395,7 +395,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libtinyalsa",
-                "libaudioroute-v2",
+                "libaudioroutev2",
                 "libexpat",
                 "libc++",
                 "libc",
