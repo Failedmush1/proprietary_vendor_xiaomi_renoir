@@ -7338,7 +7338,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libdl",
-                "libQnnHtpStub",
                 "libc",
                 "libm",
             ],
@@ -7365,7 +7364,6 @@ cc_prebuilt_library_shared {
                 "libcdsprpc",
                 "libarcsoft_qnnhtp",
                 "libOpenCL",
-                "libQnnHtpStub",
                 "liblog",
                 "libc",
                 "libm",
