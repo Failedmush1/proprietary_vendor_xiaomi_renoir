@@ -481,7 +481,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     camera.xiaomi \
     com.qti.chi.override \
-    fingerprint.fpc.lahaina \   
+    fingerprint.fpc.lahaina \ 
     libAF \
     libBlinkStub \
     libFlickerDet \
