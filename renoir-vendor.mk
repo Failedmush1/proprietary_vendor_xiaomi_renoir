@@ -668,7 +668,7 @@ PRODUCT_PACKAGES += \
     misound_karaokemix_res \
     misound_res_headphone \
     misound_res_spk \
-    batterysecret \    
+    batterysecret \
     init.qcom.sensors \
     sensors.qti \
     sscrpcd \
