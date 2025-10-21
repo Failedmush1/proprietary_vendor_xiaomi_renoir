@@ -675,7 +675,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so 
 
 PRODUCT_PACKAGES += \
+    PRODUCT_PACKAGES += \
     MobileFeliCaClient \
     MobileFeliCaMenuMainApp \
     MobileFeliCaSettingApp \
-    MobileFeliCaWebPluginBoot
+    MobileFeliCaWebPluginBoot \
+    Googlepaysidecar
