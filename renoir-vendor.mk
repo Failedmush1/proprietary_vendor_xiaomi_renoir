@@ -678,5 +678,4 @@ PRODUCT_PACKAGES += \
     MobileFeliCaClient \
     MobileFeliCaMenuMainApp \
     MobileFeliCaSettingApp \
-    MobileFeliCaWebPluginBoot \
-    Googlepaysidecar
+    MobileFeliCaWebPluginBoot
