@@ -6555,8 +6555,8 @@ cc_prebuilt_library_shared {
                 "libsynx",
                 "libcvface_api",
                 "libFlickerDet",
-                "libmegface",
-                "libMegviiFacepp-0.5.2",
+                "libfacedet",
+                "libFaceDetectpp-0.5.2",
                 "libtinyxml2",
                 "liblz4",
                 "libz",
@@ -6762,6 +6762,33 @@ cc_prebuilt_library_shared {
                 "libm",
                 "libc",
                 "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libFaceDetectpp-0.5.2",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libFaceDetectpp-0.5.2.so",
+            ],
+            shared_libs: [
+                "libfacedet",
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+                "libEGL",
+                "libGLESv2",
             ],
         },
     },
@@ -8235,6 +8262,30 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libdl",
                 "libm",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfacedet",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libfacedet.so",
+            ],
+            shared_libs: [
+                "libm",
+                "liblog",
+                "libdl",
                 "libc",
             ],
         },
