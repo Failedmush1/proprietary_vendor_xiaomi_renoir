@@ -621,7 +621,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.cameraperf@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.1 \
     bm2n06 \
     bm2n08 \
