@@ -8784,6 +8784,32 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libQnnHtpStub",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libQnnHtpStub.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcdsprpc",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmialgo_sd",
     owner: "xiaomi",
     strip: {
