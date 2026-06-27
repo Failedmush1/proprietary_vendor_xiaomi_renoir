@@ -6,7 +6,9 @@ soong_namespace {
     imports: [
         "hardware/qcom-caf/sm8350",
         "hardware/xiaomi",
-        "vendor/qcom/opensource/display",
+        "hardware/qcom/wlan/qcwcn",
+        "vendor/qcom/opensource/commonsys/display",
+        "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/xiaomi/sm8350-common",
     ],
 }
