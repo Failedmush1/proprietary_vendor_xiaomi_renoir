@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/renoir/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/renoir/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/renoir/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
+#    vendor/xiaomi/renoir/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
     vendor/xiaomi/renoir/proprietary/vendor/etc/felica/common.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/felica/common.cfg \
     vendor/xiaomi/renoir/proprietary/vendor/etc/felica/mfm.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/felica/mfm.cfg \
     vendor/xiaomi/renoir/proprietary/vendor/etc/felica/mfs.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/felica/mfs.cfg \
@@ -195,15 +195,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/etc/vibrator/effect_3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_3.bin \
     vendor/xiaomi/renoir/proprietary/vendor/etc/vibrator/effect_4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_4.bin \
     vendor/xiaomi/renoir/proprietary/vendor/etc/vibrator/effect_5.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_5.bin \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b00 \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b00 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b01 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b02 \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b01 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b03 \
@@ -223,9 +223,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b17 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b18 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b19 \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
@@ -245,19 +245,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/goodix_gt9897t_cfg_k9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9897t_cfg_k9.bin \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/goodix_gt9897t_fw_k9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9897t_fw_k9.bin \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b00 \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b00 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b03 \
@@ -277,10 +277,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b17 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b18 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b19 \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b00 \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b00 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b03 \
@@ -300,9 +300,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b17 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b18 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
+#    vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/camera/com.qti.sensormodule.renoir_ofilm_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.renoir_ofilm_imx355_ultra.bin \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/camera/com.qti.sensormodule.renoir_ofilm_s5kgw3_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.renoir_ofilm_s5kgw3_wide.bin \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/camera/com.qti.sensormodule.renoir_sunny_s5k3t2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.renoir_sunny_s5k3t2_front.bin \
