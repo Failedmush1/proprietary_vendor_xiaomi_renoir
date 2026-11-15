@@ -10,6 +10,7 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/product/app/MobileFeliCaClient/MobileFeliCaClient.apk",
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -21,6 +22,7 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/product/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk",
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -32,6 +34,7 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/product/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk",
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -43,6 +46,7 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/product/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk",
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
